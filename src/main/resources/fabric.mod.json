@@ -3,19 +3,19 @@
   "id": "variantcraftingtables",
   "version": "${version}",
   "name": "Variant Crafting Tables",
-  "description": "Crafting tables for all wood types",
+  "description": "Crafting tables for all wood types on mOres SMP",
   "authors": [
-    "Xanthian"
+    "Leronus"
   ],
-  "license": "MIT",
+  "license": "All Rights Reserved",
   "icon": "assets/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.xanthian.variantcraftingtables.Initialise"
+      "mod.leronus.variantcraftingtables.Initialise"
     ],
     "fabric-datagen": [
-      "net.xanthian.variantcraftingtables.DataGenerator"
+      "mod.leronus.variantcraftingtables.DataGenerator"
     ]
   },
   "mixins": [

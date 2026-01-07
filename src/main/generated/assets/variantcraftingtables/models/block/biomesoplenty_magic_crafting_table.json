@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "biomesoplenty:block/magic_planks",
+    "east": "variantcraftingtables:block/biomesoplenty_magic_crafting_table_side",
+    "north": "variantcraftingtables:block/biomesoplenty_magic_crafting_table_front",
+    "particle": "variantcraftingtables:block/biomesoplenty_magic_crafting_table_front",
+    "south": "variantcraftingtables:block/biomesoplenty_magic_crafting_table_side",
+    "up": "variantcraftingtables:block/biomesoplenty_magic_crafting_table_top",
+    "west": "variantcraftingtables:block/biomesoplenty_magic_crafting_table_front"
+  }
+}
