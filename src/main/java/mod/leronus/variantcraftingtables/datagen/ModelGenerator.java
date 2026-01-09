@@ -60,28 +60,10 @@ public class ModelGenerator extends FabricModelProvider {
         blockStateModelGenerator.registerCubeWithCustomTextures(Vanilla.SPRUCE_CRAFTING_TABLE, Blocks.SPRUCE_PLANKS, TextureMap::frontSideWithCustomBottom);
         blockStateModelGenerator.registerCubeWithCustomTextures(Vanilla.WARPED_CRAFTING_TABLE, Blocks.WARPED_PLANKS, TextureMap::frontSideWithCustomBottom);
 
-//        registerModel(blockStateModelGenerator, AdAstra.AA_TABLES, "ad_astra", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, BeachParty.LDBP_TABLES, "beachparty", plankName -> plankName + "_planks0");
-//        registerModel(blockStateModelGenerator, BetterArcheology.BA_TABLES, "betterarcheology", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, Bewitchment.BW_TABLES, "bewitchment", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, BiomeMakeover.BM_TABLES, "biomemakeover", plankName -> plankName + "_planks");
         registerModel(blockStateModelGenerator, BiomesOPlenty.BOP_TABLES, "biomesoplenty", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, Blockus.BLS_TABLES, "blockus", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, Botania.BOT_TABLES, "botania", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, Cinderscapes.CS_TABLES, "cinderscapes", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, DeeperAndDarker.DAD_TABLES, "deeperdarker", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, Desolation.DS_TABLES, "desolation", plankName -> plankName + "_planks");
         registerModel(blockStateModelGenerator, Ecologics.ECO_TABLES, "ecologics", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, EldritchEnd.EE_TABLES, "eldritch_end", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, Meadow.LDM_TABLES, "meadow", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, MineCells.MC_TABLES, "minecells", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, NaturesSpirit.NS_TABLES, "natures_spirit", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, Promenade.PROM_TABLES, "promenade", plankName -> plankName + "/planks");
 //        registerModel(blockStateModelGenerator, RegionsUnexplored.RU_TABLES, "regions_unexplored", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, SnifferPlus.SP_TABLES, "snifferplus", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, TechReborn.TR_TABLES, "techreborn", plankName -> plankName + "_planks");
         registerModel(blockStateModelGenerator, VanillaBackport.VB_TABLES, "vanillabackport", plankName -> plankName + "_planks");
-//        registerModel(blockStateModelGenerator, Vinery.LDV_TABLES, "vinery", plankName -> plankName + "_planks");
     }
 
     @Override

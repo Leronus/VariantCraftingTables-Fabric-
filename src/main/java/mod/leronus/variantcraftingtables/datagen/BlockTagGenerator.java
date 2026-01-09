@@ -33,28 +33,9 @@ public class BlockTagGenerator extends FabricTagProvider.BlockTagProvider {
 
         registerTags(Vanilla.VANILLA_CRAFTING_TABLES);
 
-//        registerTags(AdAstra.AA_TABLES);
-//        registerTags(BeachParty.LDBP_TABLES);
-//        registerTags(BetterArcheology.BA_TABLES);
-//        registerTags(Bewitchment.BW_TABLES);
-//        registerTags(BiomeMakeover.BM_TABLES);
-//        registerTags(Blockus.BLS_TABLES);
         registerTags(BiomesOPlenty.BOP_TABLES);
-//        registerTags(Botania.BOT_TABLES);
-//        registerTags(Cinderscapes.CS_TABLES);
-//        registerTags(DeeperAndDarker.DAD_TABLES);
-//        registerTags(Desolation.DS_TABLES);
         registerTags(Ecologics.ECO_TABLES);
-//        registerTags(EldritchEnd.EE_TABLES);
-//        registerTags(Meadow.LDM_TABLES);
-//        registerTags(MineCells.MC_TABLES);
-//        registerTags(NaturesSpirit.NS_TABLES);
-//        registerTags(Promenade.PROM_TABLES);
-//        registerTags(RegionsUnexplored.RU_TABLES);
-//        registerTags(SnifferPlus.SP_TABLES);
-//        registerTags(TechReborn.TR_TABLES);
         registerTags(VanillaBackport.VB_TABLES);
-//        registerTags(Vinery.LDV_TABLES);
 
         getOrCreateTagBuilder(AXE_MINEABLE)
                 .forceAddTag(CRAFTING_TABLES);

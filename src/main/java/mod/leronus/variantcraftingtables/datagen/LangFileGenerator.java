@@ -59,27 +59,9 @@ public class LangFileGenerator extends FabricLanguageProvider {
         translationBuilder.add(Vanilla.SPRUCE_CRAFTING_TABLE, "Spruce Crafting Table");
         translationBuilder.add(Vanilla.WARPED_CRAFTING_TABLE, "Warped Crafting Table");
 
-//        registerTranslations(translationBuilder, AdAstra.AA_TABLES);
-//        registerTranslations(translationBuilder, BeachParty.LDBP_TABLES);
-//        registerTranslations(translationBuilder, BetterArcheology.BA_TABLES);
-//        registerTranslations(translationBuilder, Bewitchment.BW_TABLES);
-//        registerTranslations(translationBuilder, BiomeMakeover.BM_TABLES);
         registerTranslations(translationBuilder, BiomesOPlenty.BOP_TABLES);
-//        registerTranslations(translationBuilder, Blockus.BLS_TABLES);
-//        registerTranslations(translationBuilder, Botania.BOT_TABLES);
-//        registerTranslations(translationBuilder, Cinderscapes.CS_TABLES);
-//        registerTranslations(translationBuilder, DeeperAndDarker.DAD_TABLES);
-//        registerTranslations(translationBuilder, Desolation.DS_TABLES);
         registerTranslations(translationBuilder, Ecologics.ECO_TABLES);
-//        registerTranslations(translationBuilder, EldritchEnd.EE_TABLES);
-//        registerTranslations(translationBuilder, Meadow.LDM_TABLES);
-//        registerTranslations(translationBuilder, MineCells.MC_TABLES);
-//        registerTranslations(translationBuilder, NaturesSpirit.NS_TABLES);
-//        registerTranslations(translationBuilder, Promenade.PROM_TABLES);
 //        registerTranslations(translationBuilder, RegionsUnexplored.RU_TABLES);
-//        registerTranslations(translationBuilder, SnifferPlus.SP_TABLES);
-//        registerTranslations(translationBuilder, TechReborn.TR_TABLES);
         registerTranslations(translationBuilder, VanillaBackport.VB_TABLES);
-//        registerTranslations(translationBuilder, Vinery.LDV_TABLES);
     }
 }

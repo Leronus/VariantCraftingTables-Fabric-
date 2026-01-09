@@ -26,45 +26,7 @@ public class ModRegistries {
         registry.add(Vanilla.MANGROVE_CRAFTING_TABLE, 300);
         registry.add(Vanilla.SPRUCE_CRAFTING_TABLE, 300);
 
-//        if (FabricLoader.getInstance().isModLoaded("blockus")) {
-//            registry.add(Blockus.BLS_HERRINGBONE_ACACIA_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_BAMBOO_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_BIRCH_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_CHARRED_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_CHERRY_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_DARK_OAK_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_JUNGLE_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_MANGROVE_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_OAK_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_RAW_BAMBOO_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_SPRUCE_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_HERRINGBONE_WHITE_OAK_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_RAW_BAMBOO_CRAFTING_TABLE, 300);
-//            registry.add(Blockus.BLS_WHITE_OAK_CRAFTING_TABLE, 300);
-//        }
-//        if (FabricLoader.getInstance().isModLoaded("cinderscapes")) {
-//            for (Block block : Cinderscapes.CS_TABLES.values()) {
-//                registry.add(block, 300);
-//            }
-//        }
-//        if (FabricLoader.getInstance().isModLoaded("deeperdarker")) {
-//            for (Block block : DeeperAndDarker.DAD_TABLES.values()) {
-//                registry.add(block, 300);
-//            }
-//        }
-//        if (FabricLoader.getInstance().isModLoaded("desolation")) {
-//            registry.add(Desolation.DS_CHARRED_CRAFTING_TABLE, 300);
-//        }
-//        if (FabricLoader.getInstance().isModLoaded("natures_spirit")) {
-//            for (Block block : NaturesSpirit.NS_TABLES.values()) {
-//                registry.add(block, 300);
-//            }
-//        }
-//        if (FabricLoader.getInstance().isModLoaded("techreborn")) {
-//            registry.add(TechReborn.TR_RUBBER_CRAFTING_TABLE, 300);
-//        }
         if (FabricLoader.getInstance().isModLoaded("biomesoplenty")) {
-            registry.add(BiomesOPlenty.BOP_CHERRY_CRAFTING_TABLE, 300);
             registry.add(BiomesOPlenty.BOP_DEAD_CRAFTING_TABLE, 300);
             registry.add(BiomesOPlenty.BOP_FIR_CRAFTING_TABLE, 300);
             registry.add(BiomesOPlenty.BOP_HELLBARK_CRAFTING_TABLE, 300);

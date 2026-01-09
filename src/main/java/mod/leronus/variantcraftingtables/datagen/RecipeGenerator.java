@@ -53,28 +53,9 @@ public class RecipeGenerator extends FabricRecipeProvider {
         offerCraftingTableRecipe(exporter, Vanilla.CRIMSON_CRAFTING_TABLE, Items.CRIMSON_PLANKS);
         offerCraftingTableRecipe(exporter, Vanilla.WARPED_CRAFTING_TABLE, Items.WARPED_PLANKS);
 
-//        registerCraftingTableRecipe(exporter, AdAstra.AA_TABLES, "ad_astra");
-//        registerCraftingTableRecipe(exporter, BeachParty.LDBP_TABLES, "beachparty");
-//        registerCraftingTableRecipe(exporter, BetterArcheology.BA_TABLES, "betterarcheology");
-//        registerCraftingTableRecipe(exporter, Bewitchment.BW_TABLES, "bewitchment");
-//        registerCraftingTableRecipe(exporter, BiomeMakeover.BM_TABLES, "biomemakeover");
         registerCraftingTableRecipe(exporter, BiomesOPlenty.BOP_TABLES, "biomesoplenty");
-//        registerCraftingTableRecipe(exporter, Blockus.BLS_TABLES, "blockus");
-//        registerCraftingTableRecipe(exporter, Botania.BOT_TABLES, "botania");
-//        registerCraftingTableRecipe(exporter, Cinderscapes.CS_TABLES, "cinderscapes");
-//        registerCraftingTableRecipe(exporter, DeeperAndDarker.DAD_TABLES, "deeperdarker");
-//        registerCraftingTableRecipe(exporter, Desolation.DS_TABLES, "desolation");
         registerCraftingTableRecipe(exporter, Ecologics.ECO_TABLES, "ecologics");
-//        registerCraftingTableRecipe(exporter, EldritchEnd.EE_TABLES, "eldritch_end");
-//        registerCraftingTableRecipe(exporter, Meadow.LDM_TABLES, "meadow");
-//        registerCraftingTableRecipe(exporter, MineCells.MC_TABLES, "minecells");
-//        registerCraftingTableRecipe(exporter, NaturesSpirit.NS_TABLES, "natures_spirit");
-//        registerCraftingTableRecipe(exporter, Promenade.PROM_TABLES, "promenade");
-//        registerCraftingTableRecipe(exporter, RegionsUnexplored.RU_TABLES, "regions_unexplored");
-//        registerCraftingTableRecipe(exporter, SnifferPlus.SP_TABLES, "snifferplus");
-//        registerCraftingTableRecipe(exporter, TechReborn.TR_TABLES, "techreborn");
         registerCraftingTableRecipe(exporter, VanillaBackport.VB_TABLES, "vanillabackport");
-//        registerCraftingTableRecipe(exporter, Vinery.LDV_TABLES, "vinery");
 
         // Uncrafting recipe
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.CRAFTING_TABLE)

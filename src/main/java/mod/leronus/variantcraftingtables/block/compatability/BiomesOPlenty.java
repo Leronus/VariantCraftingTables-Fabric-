@@ -18,7 +18,6 @@ public class BiomesOPlenty {
 
     public static Map<Identifier, Block> BOP_TABLES = Maps.newHashMap();
 
-    public static Block BOP_CHERRY_CRAFTING_TABLE;
     public static Block BOP_DEAD_CRAFTING_TABLE;
     public static Block BOP_FIR_CRAFTING_TABLE;
     public static Block BOP_HELLBARK_CRAFTING_TABLE;

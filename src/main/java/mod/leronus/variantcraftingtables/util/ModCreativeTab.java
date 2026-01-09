@@ -39,7 +39,6 @@ public class ModCreativeTab {
                         entries.add(Vanilla.WARPED_CRAFTING_TABLE);
 
                         if (FabricLoader.getInstance().isModLoaded("biomesoplenty")) {
-//                            entries.add(BiomesOPlenty.BOP_CHERRY_CRAFTING_TABLE);
                             entries.add(BiomesOPlenty.BOP_DEAD_CRAFTING_TABLE);
                             entries.add(BiomesOPlenty.BOP_FIR_CRAFTING_TABLE);
                             entries.add(BiomesOPlenty.BOP_HELLBARK_CRAFTING_TABLE);
@@ -63,34 +62,6 @@ public class ModCreativeTab {
                         if (FabricLoader.getInstance().isModLoaded("vanillabackport")) {
                             entries.add(VanillaBackport.PALE_OAK_CRAFTING_TABLE);
                         }
-
-//                        if (FabricLoader.getInstance().isModLoaded("blockus")) {
-//                            for (Block block : Blockus.BLS_TABLES.values()) {
-//                                entries.add(block);
-//                            }
-//                        }
-//                        if (FabricLoader.getInstance().isModLoaded("cinderscapes")) {
-//                            for (Block block : Cinderscapes.CS_TABLES.values()) {
-//                                entries.add(block);
-//                            }
-//                        }
-//                        if (FabricLoader.getInstance().isModLoaded("deeperdarker")) {
-//                            for (Block block : DeeperAndDarker.DAD_TABLES.values()) {
-//                                entries.add(block);
-//                            }
-//                        }
-//                        if (FabricLoader.getInstance().isModLoaded("desolation")) {
-//                            entries.add(Desolation.DS_CHARRED_CRAFTING_TABLE);
-//                        }
-//                        if (FabricLoader.getInstance().isModLoaded("natures_spirit")) {
-//                            for (Block block : NaturesSpirit.NS_TABLES.values()) {
-//                                entries.add(block);
-//                            }
-//                        }
-//                        if (FabricLoader.getInstance().isModLoaded("techreborn")) {
-//                            entries.add(TechReborn.TR_RUBBER_CRAFTING_TABLE);
-//                        }
-
                     })
                     .texture(Identifier.ofVanilla("textures/gui/container/creative_inventory/tab_variantcraftingtables.png")).noRenderedName().build());
 
